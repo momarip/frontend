@@ -1,0 +1,230 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.bg-color-1 {
+    background-color: #DCE8F5;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .bg-color-2 {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .logo {
+    width: 150px;
+  }
+
+  .profile-photo {
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+
+  
+
+
+  .menu-list li {
+        display: flex;
+        color: #457B9D;
+        min-height: 30px;
+        max-height: 50px;
+        padding: 0px 25px 0px 16px;
+        justify-content: left;
+        align-items: center;
+        gap: 16px;
+        flex: 1 0 0;
+        align-self: stretch;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  .menu-list li.active {
+    border-radius: 0px 16px 16px 0px;
+    background-color: #457B9D;
+    color: white; 
+  }
+
+  .calendar-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  #small-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .custom-select {
+    background-color: #457B9D;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .custom-select-center {
+    background-color: #F1F6FF;
+    color: #457B9D;
+    border: none;
+    border-radius: 10px;
+  }
+  .custom-select-center::after {
+    border-color: #fff transparent transparent transparent;
+    margin-top: -0.3rem;
+    right: 1rem;
+  }
+
+  .custom-select-center option {
+    background-color: #fff;
+    color: #457B9D;
+  }
+
+  .custom-select::after {
+    border-color: #fff transparent transparent transparent;
+    margin-top: -0.3rem;
+    right: 1rem;
+  }
+
+  .custom-select option {
+    background-color: #fff;
+    color: #457B9D;
+  }
+
+  #monthly-calendar {
+    width: 320px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .fc-event {
+    border: none !important;
+    background-color: #457B9D; /* Optional: Change background color of events */
+    color: white; /* Optional: Change text color of events */
+  }
+
+  #calendar {
+    font-size: 15px;
+  }
+
+  .fc-toolbar-title {
+    text-align: center;
+  }
+
+  .class-item {
+    display: flex;
+    height: 60px;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background-color: #457B9D;
+  }
+
+  .class-title {
+    font-weight: bold;
+  }
+
+  .class-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .class-time {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .box-container {
+    margin-top: 30px;
+    background: var(--container-grey, rgba(241, 241, 241, 0.45));
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+  }
+  
+  /* Center the search box */
+   .search-box {
+    width: 400px;
+    background-color: var(#DCE8F5, #DCE8F5);
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 20px;
+    border-left: none;
+  }
+  
+  .input-group span {
+    border-right: none;
+    border-radius: 20px;
+    background-color: transparent;
+  }
+  /* Set width for the confirmation button */
+  .btn.confirmation-btn {
+    width: 430px;
+    color: white;
+    background-color: #457B9D;
+  }
+
+
+  .custom-event-container {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    border-left: 15px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 12px 0px rgba(148, 163, 184, 0.15);
+}
+
+  .custom-event-icon {
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+  }
+
+  .custom-event-title {
+    font-weight: bold;
+  }
+
+  .custom-event-subtitle {
+    color: #999;
+  }
+
+  .custom-event-time {
+    display: flex;
+    align-items: center;
+    color: #999;
+    margin-top: 5px;
+  }
+
+  .custom-event-time i {
+    margin-right: 5px;
+  }
+
+  .mt-3 .container {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .mt-3 .container h5{
+    text-align: left;
+  }
+  .mt-3 .container p{
+    text-align: left;
+    color: gray;
+  }
